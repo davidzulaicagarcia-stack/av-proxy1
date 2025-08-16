@@ -1,0 +1,10 @@
+{
+  "functions": {
+    "api/overview.js": { "runtime": "nodejs18.x" },
+    "api/ping.js": { "runtime": "nodejs18.x" }
+  },
+  "routes": [
+    { "src": "/api/overview", "dest": "/api/overview.js" },
+    { "src": "/api/ping", "dest": "/api/ping.js" }
+  ]
+}
